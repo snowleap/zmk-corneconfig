@@ -63,8 +63,8 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |  ~   | // TODO: Fix this row when &mkp is committed
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &K_UNDO  &trans  &trans  &trans  &trans  &trans   &kp C_VOLUME_UP &trans  &kp RA(1) &kp RA(LS(SLASH)) &trans &trans
-   &K_AGAIN  &kp RA(A)    &kp RA(S)  &kp RA(O)    &trans    &kp C_VOLUME_DOWN      &trans &kp LEFT &kp DOWN        &kp UP &kp RIGHT &trans
+   &kp K_UNDO  &trans  &trans  &trans  &trans  &trans   &kp C_VOLUME_UP &trans  &kp RA(1) &kp RA(LS(SLASH)) &trans &trans
+   &kp K_AGAIN  &kp RA(A)    &kp RA(S)  &kp RA(O)    &trans    &kp C_VOLUME_DOWN      &trans &kp LEFT &kp DOWN        &kp UP &kp RIGHT &trans
    &trans &trans    &trans  &trans    &kp C_EJECT    &trans      &kp C_PP    &kp RA(N)    &trans          &trans   &trans &trans
                                    &trans &trans &trans   &trans &trans &trans
                         >;
