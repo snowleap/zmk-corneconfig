@@ -36,9 +36,9 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &BT_SEL 0    &trans    &kp TILDE   &kp DOLLAR  &kp CARET  &trans    &kp PRCNT   &kp PRCNT   &kp COLON &kp AT &trans &trans
-   &BT_NXT &kp AMPS &kp LBKT &kp LBRC &kp RBRC &kp LPAR      &kp EQUAL &kp STAR &kp RPAR &kp PLUS &kp RBKT &trans
-   &BT_CLR  &trans       &trans       &trans       &kp HASH       &trans            &trans   &kp MINUS   &trans &trans    &trans &trans
+   &bt BT_SEL 0    &trans    &kp TILDE   &kp DOLLAR  &kp CARET  &trans    &kp PRCNT   &kp PRCNT   &kp COLON &kp AT &trans &trans
+   &bt BT_NXT &kp AMPS &kp LBKT &kp LBRC &kp RBRC &kp LPAR      &kp EQUAL &kp STAR &kp RPAR &kp PLUS &kp RBKT &trans
+   &bt BT_CLR  &trans       &trans       &trans       &kp HASH       &trans            &trans   &kp MINUS   &trans &trans    &trans &trans
                                         &trans     &trans       &trans         &kp TAB &trans &trans
                         >;
                 };
